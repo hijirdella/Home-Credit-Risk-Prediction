@@ -2,7 +2,7 @@
 
 # Home Credit Default Risk Prediction: Data Science Final Project
 
-This repository contains the complete workflow for predicting customer default risk for Home Credit. The project was developed as part of the **Data Science Final Project** and demonstrates a comprehensive application of data science concepts, including data preprocessing, exploratory data analysis, and machine learning.
+This repository contains the complete workflow for predicting customer default risk for Home Credit. The project was developed as part of the **Data Science Final Project** at **Rakamin Academy** and demonstrates a comprehensive application of data science concepts, including data preprocessing, exploratory data analysis, and machine learning.
 
 ---
 
