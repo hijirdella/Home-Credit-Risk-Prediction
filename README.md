@@ -89,7 +89,3 @@ The **Data Science Final Project** focuses on predicting the risk of customer de
    - Offer competitive interest rates for low-risk customers and incentivize loyalty.
 
 ---
-
-## How to Use
-
-1. Clone the repository:
