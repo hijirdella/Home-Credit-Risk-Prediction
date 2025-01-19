@@ -1,8 +1,13 @@
----
-
 # Home Credit Default Risk Prediction: Data Science Final Project
 
-This repository contains the complete workflow for predicting customer default risk for Home Credit. The project was developed as part of the **Data Science Final Project** at **Rakamin Academy** and demonstrates a comprehensive application of data science concepts, including data preprocessing, exploratory data analysis, and machine learning.
+<p align='center'>
+  <a href="#"><img src="https://github.com/hijirdella/home-credit-risk-prediction/blob/5cc29ace011ea61df28b797b0ca40a2cb4771a73/Award/Home%20Credit%20GIF.gif" width="400"></a>
+</p>
+
+<p align='center'>
+  <img src="https://github.com/hijirdella/home-credit-risk-prediction/blob/5cc29ace011ea61df28b797b0ca40a2cb4771a73/Award/Certificate%20of%20Awardee%20-%20Hijir%20Della%20Wirasti%20-%20The%20Best%20Group%20of%20Final%20Project%20(Byte%20Me)_page-0001.jpg" width="350">
+  <img src="https://github.com/hijirdella/home-credit-risk-prediction/blob/5cc29ace011ea61df28b797b0ca40a2cb4771a73/Award/Certificate%20of%20Awardee%20-%20Hijir%20Della%20Wirasti%20-%20The%20Best%20Student%20of%20Final%20Project%20(Byte%20Me)_page-0001.jpg" width="350">
+</p>
 
 ---
 
@@ -48,13 +53,13 @@ The **Data Science Final Project** focuses on predicting the risk of customer de
 
 ### Stage 3: Machine Learning
 - **Models Used**:
-  - **AdaBoost**: Combines weak classifiers into a strong classifier adaptively, achieving high accuracy without requiring complex models (Lin, J., 2024).
-  - **Decision Tree**: A flexible algorithm for classification and regression, capable of handling numeric and categorical data while generating intuitive tree structures (Madaan, Mehul, et al., 2021).
-  - **Random Forest**: An ensemble of decision trees trained on random data subsets, suitable for classification and regression tasks (Madaan, Mehul, et al., 2021).
-  - **KNN (K-Nearest Neighbors)**: A lazy learning algorithm that classifies data points based on their neighbors, effective for handling local data patterns (Nagayjothi, V., 2020).
-  - **XGBoost**: Known for its high speed and efficiency, XGBoost excels at processing sparse data and controlling overfitting through regularization (Omoghbehme, M.I., 2021).
-  - **Stacking**: Combines predictions from multiple base models through meta-modeling to enhance prediction accuracy (Zeng, L., Sun, J., & Zhou, Y., 2023).
-  - **Logistic Regression**: A proven method for predicting loan defaults, with a focus on interest rates as a key predictor (Zhao, S., & Zou, J., 2021).
+  - **AdaBoost**: Combines weak classifiers into a strong classifier adaptively, achieving high accuracy without requiring complex models.
+  - **Decision Tree**: A flexible algorithm for classification and regression, capable of handling numeric and categorical data while generating intuitive tree structures.
+  - **Random Forest**: An ensemble of decision trees trained on random data subsets, suitable for classification and regression tasks.
+  - **KNN (K-Nearest Neighbors)**: A lazy learning algorithm that classifies data points based on their neighbors, effective for handling local data patterns.
+  - **XGBoost**: Known for its high speed and efficiency, XGBoost excels at processing sparse data and controlling overfitting through regularization.
+  - **Stacking**: Combines predictions from multiple base models through meta-modeling to enhance prediction accuracy.
+  - **Logistic Regression**: A proven method for predicting loan defaults, with a focus on interest rates as a key predictor.
 
 - **Evaluation Metrics**:
   - ROC-AUC, Recall, Precision, F1-Score, and F2-Score.
@@ -88,18 +93,3 @@ The **Data Science Final Project** focuses on predicting the risk of customer de
 ## How to Use
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/home-credit-default-prediction.git
-   ```
-2. Install the required libraries:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the preprocessing and modeling scripts:
-   ```
-   python preprocessing.py
-   python modeling.py
-   ```
-4. Review the final presentation in the `presentation/` folder.
-
----
