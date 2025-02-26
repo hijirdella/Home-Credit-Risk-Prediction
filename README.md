@@ -11,19 +11,6 @@
 
 ---
 
-# Home Credit Default Risk Prediction: Data Science Final Project
-
-<p align='center'>
-  <a href="#"><img src="https://github.com/hijirdella/home-credit-risk-prediction/blob/5cc29ace011ea61df28b797b0ca40a2cb4771a73/Award/Home%20Credit%20GIF.gif" width="400"></a>
-</p>
-
-<p align='center'>
-  <img src="https://github.com/hijirdella/home-credit-risk-prediction/blob/5cc29ace011ea61df28b797b0ca40a2cb4771a73/Award/Certificate%20of%20Awardee%20-%20Hijir%20Della%20Wirasti%20-%20The%20Best%20Group%20of%20Final%20Project%20(Byte%20Me)_page-0001.jpg" width="350">
-  <img src="https://github.com/hijirdella/home-credit-risk-prediction/blob/5cc29ace011ea61df28b797b0ca40a2cb4771a73/Award/Certificate%20of%20Awardee%20-%20Hijir%20Della%20Wirasti%20-%20The%20Best%20Student%20of%20Final%20Project%20(Byte%20Me)_page-0001.jpg" width="350">
-</p>
-
----
-
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Workflow Stages](#workflow-stages)
