@@ -11,6 +11,19 @@
 
 ---
 
+# Home Credit Default Risk Prediction: Data Science Final Project
+
+<p align='center'>
+  <a href="#"><img src="https://github.com/hijirdella/home-credit-risk-prediction/blob/5cc29ace011ea61df28b797b0ca40a2cb4771a73/Award/Home%20Credit%20GIF.gif" width="400"></a>
+</p>
+
+<p align='center'>
+  <img src="https://github.com/hijirdella/home-credit-risk-prediction/blob/5cc29ace011ea61df28b797b0ca40a2cb4771a73/Award/Certificate%20of%20Awardee%20-%20Hijir%20Della%20Wirasti%20-%20The%20Best%20Group%20of%20Final%20Project%20(Byte%20Me)_page-0001.jpg" width="350">
+  <img src="https://github.com/hijirdella/home-credit-risk-prediction/blob/5cc29ace011ea61df28b797b0ca40a2cb4771a73/Award/Certificate%20of%20Awardee%20-%20Hijir%20Della%20Wirasti%20-%20The%20Best%20Student%20of%20Final%20Project%20(Byte%20Me)_page-0001.jpg" width="350">
+</p>
+
+---
+
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Workflow Stages](#workflow-stages)
@@ -21,7 +34,8 @@
    - [Stage 4: Final Presentation](#stage-4-final-presentation)
 3. [Key Insights and Results](#key-insights-and-results)
 4. [Business Recommendations](#business-recommendations)
-5. [How to Use](#how-to-use)
+5. [Model Performance](#model-performance)
+6. [How to Use](#how-to-use)
 
 ---
 
@@ -89,3 +103,47 @@ The **Data Science Final Project** focuses on predicting the risk of customer de
    - Offer competitive interest rates for low-risk customers and incentivize loyalty.
 
 ---
+
+## Model Performance
+
+Below are the key evaluation metrics for the best-performing model, **XGBoost**, before and after hyperparameter tuning:
+
+| Metric | XGBoost Before Tuning | XGBoost After Tuning |
+|--------|----------------------|----------------------|
+| ROC AUC (Train Set) | 0.9646 | 0.9861 |
+| ROC AUC (Test Set) | 0.9469 | 0.9470 |
+| Accuracy (Train Set) | 0.9466 | 0.9397 |
+| Accuracy (Test Set) | 0.9387 | 0.9397 |
+| F2-Score (Test Set) | 0.8483 | 0.8519 |
+| Recall (Cross-Validation Train) | 0.8197 | 0.8239 |
+| Recall (Test Set) | 0.8176 | 0.8220 |
+| Recall (Cross-Validation Test) | 0.8165 | 0.8208 |
+
+These results indicate that hyperparameter tuning significantly improved the recall and AUC scores, enhancing the model's ability to correctly identify high-risk borrowers.
+
+---
+
+## How to Use
+
+To reproduce this project, follow these steps:
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/hijirdella/home-credit-risk-prediction.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd home-credit-risk-prediction
+   ```
+3. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Run the model training script:
+   ```sh
+   python train_model.py
+   ```
+5. View results and insights in the output folder.
+
+---
+
